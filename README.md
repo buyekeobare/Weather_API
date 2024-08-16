@@ -1,2 +1,2 @@
 # Weather Api
-I am learning weather ApI with SheCodes.
+I am learning weather API with SheCodes.
