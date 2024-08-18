@@ -11,7 +11,7 @@ function displayTemperature(response) {
 }
 
 let city = "Sydney";
-let apiKey = "6o7f7723c5tbefc7a59aabb43bdcc0c4";
+let apiKey = "my_api_key";
 let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}}&key=${apiKey}`;
 
 axios.get(apiUrl).then(displayTemperature);
