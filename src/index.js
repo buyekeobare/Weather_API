@@ -1,5 +1,4 @@
 function displayTemperature(response) {
-  console.log(response);
 
   let temperatureElement = document.querySelector("#temperature");
   let temperature = Math.round(response.data.temperature.current);
@@ -11,7 +10,7 @@ function displayTemperature(response) {
 }
 
 let city = "Sydney";
-let apiKey = "my_api_key";
+let apiKey = "6o7f7723c5tbefc7a59aabb43bdcc0c4";
 let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}}&key=${apiKey}`;
 
 axios.get(apiUrl).then(displayTemperature);
